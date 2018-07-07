@@ -32,10 +32,10 @@ def kind
  def triangle_positive
    @a.positive? && @b.positive? && @c.positive?
  end
-
+ 
+ class TriangleError < StandardError
+  
 end
 
-class TriangleError < StandardError
-  
 end
 
